@@ -14,8 +14,8 @@
         </li>
 
         <li>
-            <a href="icons.html">
-                <i class="zmdi zmdi-invert-colors"></i> <span>UI Icons</span>
+            <a href="{{ url('view_category') }}">
+                <i class="zmdi zmdi-invert-colors"></i> <span>Category</span>
             </a>
         </li>
 
