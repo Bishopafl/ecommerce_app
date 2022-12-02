@@ -19,50 +19,25 @@
             </a>
         </li>
 
-        <li>
-            <a href="forms.html">
-                <i class="zmdi zmdi-format-list-bulleted"></i> <span>Forms</span>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="zmdi zmdi-format-list-bulleted"></i>
+                <span>Products</span>
+                <i class="zmdi zmdi-chevron-right"></i>
             </a>
+            <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item">
+                        <a href="{{ url('/view_product') }}" class="nav-link">Add Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Show Products</a>
+                    </li>
+                </ul>
+            </div>
         </li>
 
-        <li>
-            <a href="tables.html">
-                <i class="zmdi zmdi-grid"></i> <span>Tables</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="calendar.html">
-                <i class="zmdi zmdi-calendar-check"></i> <span>Calendar</span>
-                <small class="badge float-right badge-light">New</small>
-            </a>
-        </li>
-
-        <li>
-            <a href="profile.html">
-                <i class="zmdi zmdi-face"></i> <span>Profile</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="login.html" target="_blank">
-                <i class="zmdi zmdi-lock"></i> <span>Login</span>
-            </a>
-        </li>
-
-        <li>
-            <a href="register.html" target="_blank">
-                <i class="zmdi zmdi-account-circle"></i> <span>Registration</span>
-            </a>
-        </li>
-
-        <li class="sidebar-header">LABELS</li>
-        <li><a href="javaScript:void();"><i class="zmdi zmdi-coffee text-danger"></i> <span>Important</span></a>
-        </li>
-        <li><a href="javaScript:void();"><i class="zmdi zmdi-chart-donut text-success"></i>
-                <span>Warning</span></a></li>
-        <li><a href="javaScript:void();"><i class="zmdi zmdi-share text-info"></i> <span>Information</span></a>
-        </li>
+       
 
     </ul>
 

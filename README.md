@@ -33,9 +33,16 @@ php artisan serve
 5. changes in the User Table
 6. php artisan migrate
 
+## Misc. Notes 
+Product table schema
+title 
+description
+image 
+price
+quantity
+category
+discount_price 
 
-## 
 ---
 ### Author information
-
 - **[Bishop_Adam](https://adamlopez.co/)**
